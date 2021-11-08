@@ -1,4 +1,4 @@
-module gobot.io/x/gobot
+module github.com/eyelight/gobot
 
 go 1.13
 
