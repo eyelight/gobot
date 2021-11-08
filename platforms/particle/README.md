@@ -9,7 +9,7 @@ For more info about the Particle platform go to https://www.particle.io/
 Installing Gobot with Particle support is pretty easy.
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/eyelight/gobot/...
 ```
 
 ## How to Use
@@ -20,9 +20,9 @@ package main
 import (
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/particle"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/drivers/gpio"
+	"github.com/eyelight/gobot/platforms/particle"
 )
 
 func main() {

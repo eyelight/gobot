@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 )
 
 type phase [][4]byte

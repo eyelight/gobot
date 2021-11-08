@@ -3,8 +3,8 @@ package hs200
 import (
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*Driver)(nil)

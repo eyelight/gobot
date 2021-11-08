@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/gobottest"
 )
 
 func ExampleEvery() {

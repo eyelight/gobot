@@ -6,8 +6,8 @@ import (
 	"errors"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*BMP388Driver)(nil)

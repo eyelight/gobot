@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"gobot.io/x/gobot/gobottest"
+	"github.com/eyelight/gobot/gobottest"
 )
 
 const (

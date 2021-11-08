@@ -5,8 +5,8 @@
 package main
 
 import (
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/beaglebone"
+	"github.com/eyelight/gobot/drivers/gpio"
+	"github.com/eyelight/gobot/platforms/beaglebone"
 )
 
 func main() {

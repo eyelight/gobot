@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/eyelight/gobot/platforms/firmata/client"
 	"go.bug.st/serial"
-	"gobot.io/x/gobot/platforms/firmata/client"
 )
 
 func main() {

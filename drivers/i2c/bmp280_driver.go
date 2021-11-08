@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"math"
 
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 )
 
 const (

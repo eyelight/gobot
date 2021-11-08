@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/api"
 	"github.com/hybridgroup/mjpeg"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api"
 	"gocv.io/x/gocv"
 )
 

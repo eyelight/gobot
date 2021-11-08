@@ -1,7 +1,7 @@
 package ardrone
 
 import (
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 )
 
 const (

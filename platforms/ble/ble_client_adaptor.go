@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/eyelight/gobot"
 	"github.com/pkg/errors"
-	"gobot.io/x/gobot"
 
 	"tinygo.org/x/bluetooth"
 )

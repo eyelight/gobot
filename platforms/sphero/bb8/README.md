@@ -5,7 +5,7 @@ The Sphero BB-8 is a toy robot from Sphero that is controlled using Bluetooth LE
 ## How to Install
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/eyelight/gobot/...
 ```
 
 ## How to Use
@@ -17,9 +17,9 @@ import (
 	"os"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/ble"
-	"gobot.io/x/gobot/platforms/sphero/bb8"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/platforms/ble"
+	"github.com/eyelight/gobot/platforms/sphero/bb8"
 )
 
 func main() {

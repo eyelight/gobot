@@ -1,7 +1,7 @@
 package bebop
 
 import (
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 )
 
 const (

@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/drivers/gpio"
+	"github.com/eyelight/gobot/gobottest"
 )
 
 // ensure that PCA9685Driver fulfills Gobot Driver interface

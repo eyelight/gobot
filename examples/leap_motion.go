@@ -7,8 +7,8 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/leap"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/platforms/leap"
 )
 
 func main() {

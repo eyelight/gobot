@@ -1,12 +1,13 @@
 package i2c
 
 import (
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/aio"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/gobottest"
 	"strings"
 	"testing"
+
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/drivers/aio"
+	"github.com/eyelight/gobot/drivers/gpio"
+	"github.com/eyelight/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*GrovePiDriver)(nil)
@@ -48,14 +49,14 @@ func TestGrovePiDriver_UltrasonicRead(t *testing.T) {
 	g.Start()
 
 	fakePin := byte(1)
-    fakeI2cResponse := []byte{CommandReadUltrasonic, 1, 2}
+	fakeI2cResponse := []byte{CommandReadUltrasonic, 1, 2}
 
 	expectedCommand := []byte{CommandReadUltrasonic, fakePin, 0, 0}
-    expectedResult := 257
+	expectedResult := 257
 
 	resultCommand := make([]byte, 3)
 
-    // capture i2c command
+	// capture i2c command
 	a.i2cWriteImpl = func(bytes []byte) (i int, e error) {
 		resultCommand = bytes
 		return len(bytes), nil

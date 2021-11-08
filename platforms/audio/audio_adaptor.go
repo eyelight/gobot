@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"path"
 
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 )
 
 // Adaptor is gobot Adaptor connection to audio playback

@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/eyelight/gobot"
 	"github.com/nats-io/nats.go"
-	"gobot.io/x/gobot"
 )
 
 // Adaptor is a configuration struct for interacting with a NATS server.

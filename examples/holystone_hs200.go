@@ -13,8 +13,8 @@ package main
 import (
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/holystone/hs200"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/platforms/holystone/hs200"
 )
 
 func main() {

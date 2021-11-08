@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 )
 
 const (

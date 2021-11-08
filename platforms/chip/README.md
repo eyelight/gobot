@@ -14,12 +14,12 @@ We recommend updating to the latest Debian OS when using the C.H.I.P., however G
 You would normally install Go and Gobot on your workstation. Once installed, cross compile your program on your workstation, transfer the final executable to your C.H.I.P and run the program on the C.H.I.P. itself as documented here.
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/eyelight/gobot/...
 ```
 
 ### PWM support
 Note that PWM might not be available in your kernel. In that case, you can install the required device tree overlay
-from the command line using [Gort](https://gobot.io/x/gort) CLI commands on the C.H.I.P device.
+from the command line using [Gort](https://github.com/eyelight/gort) CLI commands on the C.H.I.P device.
 Here are the steps:
 
 Install the required patched device tree compiler as described in the [C.H.I.P docs](https://docs.getchip.com/dip.html#make-a-dtbo-device-tree-overlay-blob):
@@ -45,9 +45,9 @@ package main
 import (
     "fmt"
 
-    "gobot.io/x/gobot"
-    "gobot.io/x/gobot/drivers/gpio"
-    "gobot.io/x/gobot/platforms/chip"
+    "github.com/eyelight/gobot"
+    "github.com/eyelight/gobot/drivers/gpio"
+    "github.com/eyelight/gobot/platforms/chip"
 )
 
 func main() {

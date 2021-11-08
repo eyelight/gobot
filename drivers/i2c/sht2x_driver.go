@@ -24,8 +24,8 @@ import (
 	"errors"
 	"time"
 
+	"github.com/eyelight/gobot"
 	"github.com/sigurn/crc8"
-	"gobot.io/x/gobot"
 )
 
 const (

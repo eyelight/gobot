@@ -3,7 +3,7 @@ package opencv
 import (
 	"errors"
 
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 	"gocv.io/x/gocv"
 )
 

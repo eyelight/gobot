@@ -3,7 +3,7 @@ package gpio
 import (
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 )
 
 // PIRMotionDriver represents a digital Proximity Infra Red (PIR) motion detecter

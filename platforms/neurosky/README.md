@@ -8,7 +8,7 @@ This package contains the Gobot adaptor and driver for the [Neurosky Mindwave Mo
 Installing Gobot with Neurosky support is pretty easy.
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/eyelight/gobot/...
 ```
 
 ## How To Connect
@@ -21,7 +21,7 @@ Now you must pair with the Mindwave. Open System Preferences > Bluetooth. Now wi
 
 ### Ubuntu
 
-Connecting to the Mindwave from Ubuntu or any other Linux-based OS can be done entirely from the command line using [Gort](https://gobot.io/x/gort) CLI commands. Here are the steps.
+Connecting to the Mindwave from Ubuntu or any other Linux-based OS can be done entirely from the command line using [Gort](https://github.com/eyelight/gort) CLI commands. Here are the steps.
 
 Find the address of the Mindwave, by using:
 ```
@@ -52,8 +52,8 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/neurosky"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/platforms/neurosky"
 )
 
 func main() {

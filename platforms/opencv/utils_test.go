@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"gobot.io/x/gobot/gobottest"
+	"github.com/eyelight/gobot/gobottest"
 	"gocv.io/x/gocv"
 )
 

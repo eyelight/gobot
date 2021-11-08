@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/spi"
-	"gobot.io/x/gobot/platforms/raspi"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/drivers/spi"
+	"github.com/eyelight/gobot/platforms/raspi"
 )
 
 func main() {

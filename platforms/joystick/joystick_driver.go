@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"time"
 
+	"github.com/eyelight/gobot"
 	"github.com/veandco/go-sdl2/sdl"
-	"gobot.io/x/gobot"
 )
 
 const (

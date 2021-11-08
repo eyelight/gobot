@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/gobottest"
 	"github.com/nats-io/nats.go"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
 )
 
 var _ gobot.Adaptor = (*Adaptor)(nil)

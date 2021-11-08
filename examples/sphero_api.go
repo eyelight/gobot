@@ -5,9 +5,9 @@
 package main
 
 import (
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api"
-	"gobot.io/x/gobot/platforms/sphero"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/api"
+	"github.com/eyelight/gobot/platforms/sphero"
 )
 
 func main() {

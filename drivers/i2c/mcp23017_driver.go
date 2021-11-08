@@ -4,7 +4,7 @@ import (
 	"log"
 	"strings"
 
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 )
 
 const (

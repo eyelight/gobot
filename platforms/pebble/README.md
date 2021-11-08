@@ -2,16 +2,16 @@
 
 This repository contains the Gobot adaptor for [Pebble smart watch](http://getpebble.com/).
 
-It uses the Pebble 2.0 SDK, and requires the 2.0 iOS or Android app, and that the ["watchbot" app](https://gobot.io/x/watchbot) has been installed on the Pebble watch.
+It uses the Pebble 2.0 SDK, and requires the 2.0 iOS or Android app, and that the ["watchbot" app](https://github.com/eyelight/watchbot) has been installed on the Pebble watch.
 
 ## How to Install
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/eyelight/gobot/...
 ```
 
 * Install Pebble 2.0 iOS or Android app. (If you haven't already)
-* Follow README to install and configure "watchbot" on your watch: https://gobot.io/x/watchbot
+* Follow README to install and configure "watchbot" on your watch: https://github.com/eyelight/watchbot
 
 ## How to Use
 
@@ -23,9 +23,9 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api"
-	"gobot.io/x/gobot/platforms/pebble"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/api"
+	"github.com/eyelight/gobot/platforms/pebble"
 )
 
 func main() {

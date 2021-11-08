@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/opencv"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/platforms/opencv"
 	"gocv.io/x/gocv"
 )
 

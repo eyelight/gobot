@@ -7,9 +7,9 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/intel-iot/edison"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/drivers/gpio"
+	"github.com/eyelight/gobot/platforms/intel-iot/edison"
 )
 
 func main() {

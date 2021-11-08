@@ -17,9 +17,9 @@ import (
 	"fmt"
 	"os"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api"
-	"gobot.io/x/gobot/platforms/ble"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/api"
+	"github.com/eyelight/gobot/platforms/ble"
 )
 
 func NewSwarmBot(port string) *gobot.Robot {

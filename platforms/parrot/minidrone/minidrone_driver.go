@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/ble"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/platforms/ble"
 )
 
 // Driver is the Gobot interface to the Parrot Minidrone

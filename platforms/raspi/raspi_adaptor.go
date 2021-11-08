@@ -9,11 +9,11 @@ import (
 
 	"sync"
 
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/drivers/i2c"
+	"github.com/eyelight/gobot/drivers/spi"
+	"github.com/eyelight/gobot/sysfs"
 	multierror "github.com/hashicorp/go-multierror"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/drivers/spi"
-	"gobot.io/x/gobot/sysfs"
 )
 
 var readFile = func() ([]byte, error) {

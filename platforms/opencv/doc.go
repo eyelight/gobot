@@ -7,16 +7,16 @@ This package requires `opencv` to be installed on your system
 
 Then you can install the package with:
 
-	go get gobot.io/x/gobot && go install gobot.io/x/gobot/platforms/opencv
+	go get github.com/eyelight/gobot && go install github.com/eyelight/gobot/platforms/opencv
 
 Example:
 
 	package main
 
 	import (
-		cv "gobot.io/x/go-opencv/opencv"
-		"gobot.io/x/gobot"
-		"gobot.io/x/gobot/platforms/opencv"
+		cv "github.com/eyelight/go-opencv/opencv"
+		"github.com/eyelight/gobot"
+		"github.com/eyelight/gobot/platforms/opencv"
 	)
 
 	func main() {
@@ -40,4 +40,4 @@ Example:
 For further information refer to opencv README:
 https://github.com/hybridgroup/gobot/blob/master/platforms/opencv/README.md
 */
-package opencv // import "gobot.io/x/gobot/platforms/opencv"
+package opencv // import "github.com/eyelight/gobot/platforms/opencv"

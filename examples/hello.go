@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 )
 
 func main() {

@@ -8,8 +8,8 @@ Example:
     import (
     	"fmt"
 
-    	"gobot.io/x/gobot"
-    	"gobot.io/x/gobot/api"
+    	"github.com/eyelight/gobot"
+    	"github.com/eyelight/gobot/api"
     )
 
     func main() {
@@ -34,6 +34,6 @@ Example:
     }
 
 It follows Common Protocol for Programming Physical Input and Output (CPPP-IO) spec:
-https://gobot.io/x/cppp-io
+https://github.com/eyelight/cppp-io
 */
 package api

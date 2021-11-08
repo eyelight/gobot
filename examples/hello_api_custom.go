@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/api"
 )
 
 func main() {

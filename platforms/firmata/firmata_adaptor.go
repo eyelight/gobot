@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/drivers/i2c"
+	"github.com/eyelight/gobot/platforms/firmata/client"
 	"go.bug.st/serial"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/platforms/firmata/client"
 )
 
 type firmataBoard interface {

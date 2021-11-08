@@ -4,9 +4,9 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/spi"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/drivers/spi"
+	"github.com/eyelight/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*Driver)(nil)

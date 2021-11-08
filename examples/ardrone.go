@@ -7,8 +7,8 @@ package main
 import (
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/parrot/ardrone"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/platforms/parrot/ardrone"
 )
 
 func main() {

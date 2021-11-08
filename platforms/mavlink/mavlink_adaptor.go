@@ -3,9 +3,9 @@ package mavlink
 import (
 	"io"
 
+	"github.com/eyelight/gobot"
+	common "github.com/eyelight/gobot/platforms/mavlink/common"
 	"go.bug.st/serial"
-	"gobot.io/x/gobot"
-	common "gobot.io/x/gobot/platforms/mavlink/common"
 )
 
 // Adaptor is a Mavlink transport adaptor.

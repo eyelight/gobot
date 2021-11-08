@@ -2,8 +2,9 @@ package gpio
 
 import (
 	"errors"
-	"gobot.io/x/gobot"
 	"time"
+
+	"github.com/eyelight/gobot"
 )
 
 const (

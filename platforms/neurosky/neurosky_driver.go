@@ -3,7 +3,7 @@ package neurosky
 import (
 	"bytes"
 
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 )
 
 const (

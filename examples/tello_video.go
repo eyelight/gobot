@@ -18,8 +18,8 @@ import (
 	"os/exec"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/dji/tello"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/platforms/dji/tello"
 )
 
 func main() {

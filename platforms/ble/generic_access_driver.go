@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"log"
 
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 )
 
 // GenericAccessDriver represents the Generic Access Service for a BLE Peripheral

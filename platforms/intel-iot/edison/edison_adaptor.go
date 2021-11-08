@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"sync"
 
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/drivers/i2c"
+	"github.com/eyelight/gobot/sysfs"
 	multierror "github.com/hashicorp/go-multierror"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/sysfs"
 )
 
 type mux struct {

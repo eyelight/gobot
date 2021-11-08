@@ -7,9 +7,9 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/mavlink"
-	common "gobot.io/x/gobot/platforms/mavlink/common"
+	"github.com/eyelight/gobot"
+	"github.com/eyelight/gobot/platforms/mavlink"
+	common "github.com/eyelight/gobot/platforms/mavlink/common"
 )
 
 func main() {

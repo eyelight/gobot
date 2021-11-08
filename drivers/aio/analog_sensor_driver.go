@@ -3,7 +3,7 @@ package aio
 import (
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/eyelight/gobot"
 )
 
 // AnalogSensorDriver represents an Analog Sensor

@@ -3,8 +3,8 @@ package i2c
 import (
 	"encoding/binary"
 
+	"github.com/eyelight/gobot"
 	"github.com/pkg/errors"
-	"gobot.io/x/gobot"
 )
 
 const ADXL345AddressLow = 0x53
