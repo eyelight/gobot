@@ -1,3 +1,9 @@
+1.15.1
+---
+* **robot_work.go**
+    * Change dependency 'github.com/gobuffalo/uuid' to 'github.com/gofrs/uuid'
+* **robot_work_test.go**
+    * Change dependency 'github.com/gobuffalo/uuid' to 'github.com/gofrs/uuid'
 1.15.0
 ---
 * **build**
