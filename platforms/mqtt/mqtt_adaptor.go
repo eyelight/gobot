@@ -166,7 +166,7 @@ func (a *Adaptor) PublishWithQOS(topic string, qos int, message []byte) (paho.To
 }
 
 // OnWithQOS allows per-subscribe QOS values to be set and returns a paho.Token
-func (a *Adaptor) OnWithQOS(event string, qos int, f func(msg Message)) (paho.Token, error) {
+func (a *Adaptor) OnWithQOS(event string, qos int, f func(msg Message, opts ...interface{})) (paho.Token, error) {
 	if a.client == nil {
 		return nil, ErrNilClient
 	}
@@ -179,7 +179,7 @@ func (a *Adaptor) OnWithQOS(event string, qos int, f func(msg Message)) (paho.To
 }
 
 // On subscribes to a topic, and then calls the message handler function when data is received
-func (a *Adaptor) On(event string, f func(msg Message)) bool {
+func (a *Adaptor) On(event string, f func(msg Message, opts ...interface{})) bool {
 	_, err := a.OnWithQOS(event, a.qos, f)
 	if err != nil {
 		return false
